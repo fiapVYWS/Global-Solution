@@ -1,0 +1,26 @@
+@import url(assets/css/header.css);
+@import url(assets/css/pagina1.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root{
+    --branco: #FFFFFF;
+    --darkGreen: #344E41;
+    --mossGreen: #4A5E4A;
+    --lightGreen: #A3B18A;
+    --red: #BC4749;
+    --beige: #F2ECDD;
+    --imagem: url('image.png')
+}
+
+.teste{
+ 
+    height: 100%;
+    border-radius: 8em;
+    background-color: #ebf0e3;
+}
