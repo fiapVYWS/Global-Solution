@@ -1,6 +1,7 @@
 @import url(assets/css/header.css);
 @import url(assets/css/pagina1.css);
 @import url(assets/css/fome.css);
+@import url(assets/css/insegAlimentar.css);
 *{
     padding: 0;
     margin: 0;
@@ -25,3 +26,9 @@
     background-color: #ebf0e3;
 }
 
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0rem 20rem;
+}

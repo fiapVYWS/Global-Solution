@@ -11,6 +11,7 @@
     gap: 3em;
     list-style: none;
     color: var(--darkGreen);
+    margin: 0;
 }
 .link{
     font-size: 16px;
