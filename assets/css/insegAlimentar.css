@@ -12,3 +12,7 @@
     align-items: center;
     margin: 0 0 2rem 0;
 }
+
+.conteudo__titulo {
+    font-weight: bold;
+}
