@@ -1,0 +1,34 @@
+@import url(assets/css/header.css);
+@import url(assets/css/pagina1.css);
+@import url(assets/css/fome.css);
+@import url(assets/css/insegAlimentar.css);
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root{
+    --branco: #FFFFFF;
+    --darkGreen: #344E41;
+    --mossGreen: #4A5E4A;
+    --lightGreen: #A3B18A;
+    --red: #BC4749;
+    --beige: #faf5ea;
+    --imagem: url('image.png')
+}
+
+.problem{
+    margin: 0 10rem 0 10rem;
+    height: 100%;
+    border-radius: 8em;
+    background-color: #ebf0e3;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0rem 20rem;
+}
