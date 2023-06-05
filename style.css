@@ -2,6 +2,8 @@
 @import url(assets/css/pagina1.css);
 @import url(assets/css/fome.css);
 @import url(assets/css/insegAlimentar.css);
+@import url(assets/css/ods2.css);
+
 *{
     padding: 0;
     margin: 0;
@@ -31,4 +33,8 @@
     flex-direction: column;
     align-items: center;
     margin: 0rem 20rem;
+}
+
+p{
+    text-indent: 2em;
 }
