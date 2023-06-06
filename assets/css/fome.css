@@ -29,3 +29,9 @@
     color: var(--darkGreen);
 }
 
+.footer__link:hover{
+    color: var(--red);
+    border-bottom: 3px solid transparent;
+    border-bottom-color: var(--red);
+
+}
