@@ -1,0 +1,54 @@
+.projeto{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.solucao{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+}
+
+.solucao h1{
+    font-weight: 600;
+    color: var(--lightGreen);
+    padding: 1em 0;
+}
+
+.solucao p{
+    font-size: 20px;
+    color: var(--darkGreen);
+}
+
+.explicacao{
+    width: 80%;
+    background-color: var(--beige);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+    border-radius: 1em;
+    padding: 1em 3em;
+    margin: 2em 0;
+}
+.explicacao_solucao{
+    align-items: center;
+    display: flex;
+    margin: 1em;
+    gap: 1em;
+}
+
+.explicacao h3{
+    font-weight: 600;
+    color: var(--red);
+}
+
+.explicacao__ods{
+    display: flex;
+}
+
+.explicacao__ods p{
+    font-size: 16px;
+}
