@@ -1,0 +1,83 @@
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(250, 244, 244);
+    padding: 2em;
+}
+
+.footer h4{
+    color: var(--red);
+}
+
+.about_us{
+    width: 30%;
+}
+
+.about_us h4{
+    padding-bottom: 1em;
+}
+
+.about_us p{
+    text-align: justify;
+    padding-bottom: 1em;
+}
+
+.social{
+    gap: 10em;
+}
+
+.contact h4{
+    padding-bottom: 1em;
+}
+.email{
+    display: flex;
+    padding-bottom: 0.5em;
+}
+
+.telefone{
+    display: flex;
+    padding: 0.5em 0;
+}
+.endereco{
+    display: flex;
+    padding: 0.5em 0;
+}
+
+.links h4{
+    padding-bottom: 1em;
+}
+
+.footer__links{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    color: inherit;
+}
+
+.footer__link{
+    color: var(--darkGreen);
+}
+
+.footer p{
+    color: var(--darkGreen);
+}
+
+.social img{
+    padding-right: 1em;
+}
+
+.rodape{
+    text-align: center;
+    justify-content: center;
+    background-color: var(--red);
+    color: aliceblue;
+    padding: 0.7em;
+    font-size: 14px;
+    margin: 0;
+}
+
+.rodape p{
+    margin: 0;
+}
