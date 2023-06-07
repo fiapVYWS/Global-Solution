@@ -5,6 +5,6 @@ const toggleDiv = document.getElementById("toggleDiv");
             if (toggleDiv.style.display !== "none"){
                 toggleDiv.style.display = "none";
             } else {
-                toggleDiv.style.display = "block";
+                toggleDiv.style.display = "flex";
             }
 }
