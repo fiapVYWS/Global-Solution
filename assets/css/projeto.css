@@ -52,3 +52,31 @@
 .explicacao__ods p{
     font-size: 16px;
 }
+
+@media screen and (max-width: 1240px){
+    .explicacao_solucao img{
+        display: none;
+    }
+
+    .explicacao{
+        width: 100%;
+    }
+    .linha2{
+        display: none;
+    }
+
+    .explicacao_solucao h3{
+        font-size: 20px;
+    }
+
+    .explicacao p{
+        font-size: 16px;
+    }
+
+    .solucao h1{
+        font-size: 25px;
+    }
+    .solucao p{
+        font-size: 16px;
+    }
+}

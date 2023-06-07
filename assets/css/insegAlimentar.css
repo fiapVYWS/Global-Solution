@@ -54,3 +54,24 @@
     color: var(--darkGreen);
     padding: 1em;
 }
+
+@media screen and (max-width: 1240px){
+    .content__first__view h1{
+        font-size: 25px;
+    }
+
+    .content__first__view h3{
+        font-size: 20px;
+    }
+
+    .content_fome h2{
+        font-size: 25px;
+    }
+    .content_fome p{
+        font-size: 16px;
+    }
+
+    .grafic__img{
+        width: 500px;
+    }
+}

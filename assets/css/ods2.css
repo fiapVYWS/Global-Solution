@@ -111,4 +111,39 @@
 }
 
 
+@media screen and (max-width: 1240px){
+    .ods h1{
+        font-size: 25px;
+    }
+
+    .ods h2, h3{
+        font-size: 20px;
+    }
+
+    .ods__div img{
+        display: none;
+    }
+    
+    .ods__infos img{
+        display: none;
+    }
+
+    .ods p{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .ods__infos{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .ods__card1{
+        width: 100%;
+        padding: 1em;
+    }
+}
+
 

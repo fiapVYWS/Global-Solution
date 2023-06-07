@@ -8,3 +8,4 @@ const toggleDiv = document.getElementById("toggleDiv");
                 toggleDiv.style.display = "none";
             }
 }
+

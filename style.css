@@ -24,10 +24,8 @@
 }
 
 .problem{
-    margin: 0 10rem 0 10rem;
     height: 100%;
     border-radius: 8em;
-    background-color: #ebf0e3;
 }
 
 p{
@@ -48,3 +46,31 @@ p{
     font-size: 16px;
     font-weight: 600;
 }
+
+
+
+@media screen and (max-width: 900px){
+    .footer{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 5em;
+    }
+    .about_us{
+        width: 70%;
+    }
+
+    .header{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .header img{
+        width: 100px;
+    }
+
+    .link{
+        font-size: 13px;
+    }
+}
+
