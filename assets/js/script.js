@@ -1,3 +1,5 @@
+const toggleDiv = document.getElementById("toggleDiv");
+const buttonToggle = document.getElementById("buttonToggle");
 
 function menuShow(){
     let menuMobile = document.querySelector('.mobile-menu');
@@ -10,14 +12,16 @@ function menuShow(){
     }
 }
 
+function buttonClick() {
+    if (toggleDiv.style.display !== "flex"){
+        toggleDiv.style.display = "flex";
+    } else {
+        toggleDiv.style.display = "none";
+    }
+}
 
-const toggleDiv = document.getElementById("toggleDiv");
-        const buttonToggle = document.getElementById("buttonToggle");
-
-        function buttonClick() {
-            if (toggleDiv.style.display !== "flex"){
-                toggleDiv.style.display = "flex";
-            } else {
-                toggleDiv.style.display = "none";
-            }
+async function  feedBack(){
+    let res = window.prompt("O que você achou das informações apresentadas no site?");
+    await window.open('mailto:viniprates2211@gmail.com?subject=FeedBack&body='+res);
+    window.alert("Obrigado pelo seu feedback! ");
 }
