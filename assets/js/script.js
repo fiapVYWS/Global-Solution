@@ -25,7 +25,10 @@ function buttonClick() {
     if (res){
         window.open('mailto:viniprates2211@gmail.com?subject=FeedBack&body='+res);
         window.alert("Obrigado pelo seu feedback! ");
-    } else {
-        
-    }
+    } 
+}
+
+function redirectFome(){
+    window.location.href = "https://verakis.com/o-desperdicio-de-alimentos-no-brasil/";
+
 }
