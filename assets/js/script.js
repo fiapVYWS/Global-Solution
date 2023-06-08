@@ -20,8 +20,12 @@ function buttonClick() {
     }
 }
 
-async function  feedBack(){
+ function  feedBack(){
     let res = window.prompt("O que você achou das informações apresentadas no site?");
-    await window.open('mailto:viniprates2211@gmail.com?subject=FeedBack&body='+res);
-    window.alert("Obrigado pelo seu feedback! ");
+    if (res){
+        window.open('mailto:viniprates2211@gmail.com?subject=FeedBack&body='+res);
+        window.alert("Obrigado pelo seu feedback! ");
+    } else {
+        
+    }
 }
